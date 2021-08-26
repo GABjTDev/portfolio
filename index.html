@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portafolio profesional para desarrollador web" />
+    <meta name="keywords" content="desarrollador web, front-end, html, css, javascript, reactJS, Bootstrap" />
+    <meta name="author" content="Gabriel Omar Rea" />
+    <title>Portafolio - Front-end</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" rel="preload"/>
+    <link rel="stylesheet" href="assets/css/hamburger.css" rel="preload" />
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css" rel="preload" />
+    <link rel="stylesheet" href="assets/css/styles.css" rel="preload" />
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="header">
+
+            <div class="fixed-header">
+                <div class="user-img">
+                    <div class="box">
+                        <img src="./assets/images/foto.jpg" alt="Foto de perfil gabriel rea">
+                    </div>
+                    <p class="name">Gabriel Rea</p>
+                </div>
+
+                <nav class="nav">
+                    <ul>
+                        <li class="active"><a href="#"><i class="fas fa-home"></i>Inicio</a></li>
+                        <li><a href="#sobre-mi"><i class="far fa-user"></i>Sobre mi</a></li>
+                        <li><a href="#habilidades"><i class="fas fa-user-cog"></i>Habilidades</a></li>
+                        <li><a href="#proyectos"><i class="fas fa-briefcase"></i>Proyectos</a></li>
+                        <li><a href="#contacto"><i class="far fa-envelope"></i>Contacto</a></li>
+                    </ul>
+
+                    <div class="cv">
+                        <a href="./assets/cv/Curriculum-Gabriel.pdf" target="_blank">Ver Curriculum</a>
+                    </div>
+
+                    <div class="redes-sociales">
+                        <a href="https://www.behance.net/gabrielrea" rel="nofollow noopener noreferrer" target="_blank"><span>behance</span><i class="fab fa-behance"></i></a>
+                        <a href="https://github.com/GabrielOmarR" rel="nofollow noopener noreferrer" target="_blank"><span>github</span><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/gabriel-rea" rel="nofollow noopener noreferrer" target="_blank"><span>linkedin</span><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.codepen.io/gabrielomarr" rel="nofollow noopener noreferrer" target="_blank"><span>codepen</span><i class="fab fa-codepen"></i></a>
+                    </div>
+                </nav>
+
+                <button id="burger" class="hamburger hamburger--spin" type="button" aria-label="menu">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </div>
+
+        </header>
+
+        <main class="main">
+
+            <div class="background">
+
+                <video id="video" autoplay muted="muted" loop>
+                    <source src="./assets/videos/typing2.mp4" type="video/mp4">
+                </video>
+                
+                <div class="contain">
+                    <div class="contain-animation">
+                        <p class="bienvenido">Comenzando mi futuro profesional de</p>
+                        <h1>Desarrollador Front-end</h1>
+                    </div>
+                </div>
+            </div>
+
+            <section class="contain-center sobre-mi">
+                <h2 id="sobre-mi">Sobre mi</h2>
+
+                <div class="box-text">
+                    <p>
+                        Bienvenidos a mi portafolio profesional hecho solamente con HTML, CSS y JAVASCRIPT, soy un joven desarrollador Front-end, que le gusta lo que hace y con muchas ganas de empezar a trabajar en este ámbito soy una persona que se desafía a mejorar y se impulsa a si mismo para lograr el máximo y mejor rendimiento que pueda ofrecer a la hora de trabajar en equipo, capacidad rápida de aprendizaje y adaptación para el área designada.
+                        <br>
+                        <br>
+                        Poseo conocimientos en el área del Back-end para crear base de datos, manipularlos y poder mostrarlos.
+                    </p>
+                </div>
+
+
+                <div class="sub-sobre-mi">
+                    <h3>Desarrollador y Diseñador jr.</h3>
+                    <p>Mas de 3 años aprendiendo de forma autodidactica.</p>
+                    <p>"Cada día es un constante crecimiento para mí"</p>
+                    <div class="list">
+
+                        <div class="list-1">
+                            <ul>
+                                <li>25 años</li>
+                                <li>Gabriel.rea96@gmail.com</li>
+                                <li>Front-end</li>
+                            </ul>
+                        </div>
+
+                        <div class="list-2">
+                            <ul>
+                                <li>Cursos en Ed.team</li>
+                                <li>Cursos en Platzi</li>
+                                <li>Cursos en Udemy</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="contain-center habilidades">
+                <h2 id="habilidades">Habilidades</h2>
+
+
+
+            </section>
+
+            <section class="contain-center trabajos">
+                <h2 id="proyectos">Proyectos</h2>
+
+                <p class="filter-text">Filtrar por dificultad:</p>
+
+                <div class="filter">
+                    <div class="filter-box">
+                        <button class="all">All</button>
+                    </div>
+
+                    <div class="filter-box">
+                        <button class="newbie">Newbie</button>
+                    </div>
+
+                    <div class="filter-box">
+                        <button class="junior">Junior</button>
+                    </div>
+
+                    <div class="filter-box">
+                        <button class="intermediate">Intermediate</button>
+                    </div>
+
+                    <div class="filter-box">
+                        <button class="advanced">Advanced</button>
+                    </div>
+                </div>
+
+                <div class="box-gallery gallery">
+                </div>
+
+            </section>
+
+            <section class="contain-center contacto">
+                <h2 id="contacto">Contacto</h2>
+
+                <form id="form" action="https://formspree.io/f/xqkgrwrr" method="POST">
+                    <div class="grid-form">
+
+                        <div>
+                            <input type="text" name="name" placeholder="Nombre" id="name" autocomplete="off"/>
+                            <p>Nombre invalido</p>
+                        </div>
+
+                        <div>
+                            <input type="email" name="_replyto" placeholder="Email" id="email" autocomplete="off"/>
+                            <p>Email invalido</p>
+                        </div>
+
+                        <div>
+                            <input type="text" name="subject" placeholder="Asunto" id="subject" autocomplete="off"/>
+                            <p>Asunto invalido</p>
+                        </div>
+
+                        <div class="textarea">
+                            <textarea name="message" cols="30" rows="10" placeholder="Mensaje" id="message"></textarea>
+                            <p>Mensaje invalido</p>
+                        </div>
+
+                    </div>
+                    <input type="submit" value="Enviar" class="btn" name="enviar" />
+                    <div class="status">
+                        <p class="fail">Formulario Invalido!!</p>
+                        <p class="success">Formulario Enviado Correctamente!!</p>
+                    </div>
+                    
+                </form>
+            </section>
+            
+        </main>
+        <div class="wave-box">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C155.47,-16.28 338.31,97.20 504.79,7.41 L500.00,150.00 L0.00,150.00 Z" style="stroke: none;"></path>
+            </svg>
+        </div>
+
+        <div class="modal" id="modal">
+            <div class="contain-modal">
+                <div class="close-modal" id="close-modal">
+                    <p id="btn-close-modal">X</p>
+                </div>
+                <h3 id="title"></h3>
+                <img id="img-modal">
+                <div class="tools" id="tools"></div>
+                <div class="buttons-git">
+                    <a id="demo" href="" target="_blank" rel="nofollow noopener noreferrer">VIEW DEMO</a>
+                    <a id="code" href="" target="_blank" rel="nofollow noopener noreferrer">VIEW CODE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./assets/js/slick/slick.min.js"></script>
+    <script type="module" src="main.js" defer></script>
+</body>
+</html>
