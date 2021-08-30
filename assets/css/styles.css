@@ -103,6 +103,10 @@ header .hamburger-inner::after {
   display: none;
 }
 
+.none{
+  display: none;
+}
+
 /* -------------------------------------
 ----------------------------------------
   MODAL
@@ -785,6 +789,18 @@ header .hamburger-inner::after {
   overflow: hidden;
   cursor: pointer;
   padding: 10px;
+  transition: all 1s ease;
+  animation: show 2s ease forwards;
+}
+
+@keyframes show {
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
 }
 
 .gallery .box-img img {
