@@ -7,9 +7,9 @@ import { createGallery, filter } from './assets/js/createGallery.js';
 
 document.addEventListener("DOMContentLoaded", () => {
     Responsive("habilidades", "(min-width: 1024px)");
+    createGallery();
     Menu();
     scroll();
-    createGallery();
     filter();
     Validation();
 });
