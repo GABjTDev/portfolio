@@ -1,3 +1,4 @@
+"use strict"
 import Menu from './assets/js/menu.js';
 import Responsive from './assets/js/responsive.js';
 import Validation from './assets/js/validation.js';
