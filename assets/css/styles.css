@@ -650,6 +650,10 @@ header .hamburger-inner::after {
 ----------------------------------------
 --------------------------------------- */
 
+.habilidades h2{
+  margin-bottom: 0;
+}
+
 .habilidades-mobile {
   display: flex;
   flex-direction: column;

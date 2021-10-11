@@ -85,8 +85,21 @@ export default function responsiveMedia(target, mq) {
     let breakpoint = window.matchMedia(mq);
     let $habilidad = document.querySelector(`.${target}`);
 
-    const responsive = (e) => {
+    if (breakpoint.matches) {
+        const $drawSkills = skillsDesktop();
+        $habilidad.appendChild($drawSkills);
+        Slider();
+    } else {
+        const $drawSkills = skillsMobile();
+        $habilidad.appendChild($drawSkills);
 
+        const $boxHabilidades = document.querySelector('.box-habilidades');
+        const $habilidades = document.getElementById('habilidades-show');
+        const $hiddenHabilidades = document.getElementById('habilidades-hidden');
+        Show($boxHabilidades, $habilidades, $hiddenHabilidades);
+    }
+
+    breakpoint.addEventListener("change", (e) => {
         if ($habilidad.lastElementChild.classList.contains('habilidades-desktop')) {
             $habilidad.removeChild($habilidad.lastElementChild);
         } else {
@@ -94,7 +107,7 @@ export default function responsiveMedia(target, mq) {
         }
 
 
-        if (e.matches) {
+        if (breakpoint.matches) {
             const $drawSkills = skillsDesktop();
             $habilidad.appendChild($drawSkills);
             Slider();
@@ -109,9 +122,5 @@ export default function responsiveMedia(target, mq) {
             const $hiddenHabilidades = document.getElementById('habilidades-hidden');
             Show($boxHabilidades, $habilidades, $hiddenHabilidades);
         }
-
-    }
-
-    breakpoint.addListener(responsive);
-    responsive(breakpoint);
+    })
 }
