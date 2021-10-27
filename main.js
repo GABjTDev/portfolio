@@ -4,6 +4,7 @@ import Responsive from './assets/js/responsive.js';
 import Validation from './assets/js/validation.js';
 import scroll from './assets/js/scroll.js';
 import { createGallery, filter } from './assets/js/createGallery.js';
+import Loading from './assets/js/loading.js';
 
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -13,4 +14,5 @@ document.addEventListener("DOMContentLoaded", () => {
     scroll();
     filter();
     Validation();
+    Loading();
 });
