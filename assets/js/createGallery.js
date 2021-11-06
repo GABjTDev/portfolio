@@ -47,9 +47,9 @@ function drawBox(el, box) {
         })
 
         let $demo = document.getElementById('demo');
-        $demo.href = `https://gabrielomarr.github.io/project-portfolio/${el.difficulty}/${el.local}`;
+        $demo.href = el.demo;
         let $view = document.getElementById('code');
-        $view.href = `https://github.com/GabrielOmarR/project-portfolio/tree/main/${el.difficulty}/${el.local}`;
+        $view.href = el.view;
     })
 
     const $img = document.createElement('img');
