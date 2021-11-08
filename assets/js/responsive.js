@@ -62,6 +62,8 @@ function skillsDesktop() {
     const $slider = document.createElement('div');
     $slider.classList.add('slider');
 
+    const $fragment = document.createDocumentFragment();
+
     habilidades.forEach(el => {
         const $boxHabilidad = document.createElement('div');
         const $img = document.createElement('img');
@@ -71,9 +73,10 @@ function skillsDesktop() {
         $img.height = '100';
 
         $boxHabilidad.appendChild($img);
-        $slider.appendChild($boxHabilidad);
+        $fragment.appendChild($boxHabilidad);
     });
 
+    $slider.appendChild($fragment);
     $boxDesktop.appendChild($slider);
 
     return $boxDesktop;
