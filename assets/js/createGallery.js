@@ -48,8 +48,8 @@ function drawBox(el, box) {
 
         let $demo = document.getElementById('demo');
         $demo.href = el.demo;
-        let $view = document.getElementById('code');
-        $view.href = el.view;
+        let $code = document.getElementById('code');
+        $code.href = el.code;
     })
 
     const $img = document.createElement('img');
