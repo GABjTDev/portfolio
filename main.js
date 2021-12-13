@@ -8,11 +8,11 @@ import Loading from './assets/js/loading.js';
 
 
 document.addEventListener("DOMContentLoaded", () => {
+    Loading();
     Responsive("habilidades", "(min-width: 1024px)");
     createGallery();
     Menu();
     scroll();
     filter();
     Validation();
-    Loading();
 });

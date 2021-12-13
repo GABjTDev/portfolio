@@ -13,7 +13,11 @@ let habilidades = [
     { name: 'logo-typescript', alt: 'logo typescript' },
     { name: 'logo-react', alt: 'logo react' },
     { name: 'logo-php', alt: 'logo php' },
-    { name: 'logo-mysql', alt: 'logo mysql' }
+    { name: 'logo-mysql', alt: 'logo mysql' },
+    { name: 'logo-firebase', alt: 'logo firebase' },
+    { name: 'logo-mongoDB', alt: 'logo mongoDB' },
+    { name: 'logo-nodejs', alt: 'logo nodeJS' },
+    { name: 'logo-redux', alt: 'logo redux' },
 ];
 
 

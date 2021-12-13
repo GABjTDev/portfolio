@@ -498,13 +498,13 @@ header .hamburger-inner::after {
   background-color: var(--green);
   border-radius: 20px;
   padding: 10px 0;
-  box-shadow: 0 4px 0 var(--greenDark);
   cursor: pointer;
+
+  transition: all .3s ease;
 }
 
 .cv:hover {
-  box-shadow: inset 0 4px 0 var(--greenDark);
-  filter: brightness(1.1);
+  background-color: var(--greenDark);
 }
 
 .cv a {
@@ -844,6 +844,8 @@ header .hamburger-inner::after {
   width: auto;
   color: var(--main-color);
   padding: 5px 10px;
+
+  transition: all .3s ease;
 }
 
 .filter-box button:disabled {
