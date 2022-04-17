@@ -34,6 +34,9 @@ function drawBox(el, box) {
         $img.src = `./assets/images/trabajos/${el.name}.jpg`;
         $img.alt = el.alt;
 
+        let $desc = document.getElementById('desc');
+        $desc.textContent = el.desc || '';
+
         let $tools = document.getElementById('tools');
 
         while ($tools.firstElementChild) {

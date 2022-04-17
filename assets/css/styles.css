@@ -236,6 +236,7 @@ header .hamburger-inner::after {
   align-items: center;
   opacity: 0;
   animation: showModal 0.5s ease forwards;
+  top: 0;
 }
 
 .modal-active{
@@ -254,14 +255,16 @@ header .hamburger-inner::after {
 
 .modal img{
   max-width: 100%;
+  margin-bottom: 10px;
 }
 
 .contain-modal{
   width: 90%;
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
   background-color: var(--white);
   padding: 10px;
+  padding-top: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -303,14 +306,19 @@ header .hamburger-inner::after {
 
 .contain-modal h3{
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
+}
+
+.desc {
+  height: 100px;
+  overflow-y: scroll;
+  padding: 10px;
 }
 
 .tools{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 30px 0;
   margin-bottom: 0;
 }
 
@@ -324,7 +332,7 @@ header .hamburger-inner::after {
 }
 
 .buttons-git{
-  margin: 30px 0;
+  margin: 10px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -988,6 +996,18 @@ header .hamburger-inner::after {
   text-align: center;
   color: var(--title-color);
   font-size: 1.1em;
+}
+
+.front-mentor{
+  text-align: center;
+  color: #4a4a4d;
+}
+
+
+
+.front-mentor a{
+  text-decoration: none;
+  color:#1a7b81;
 }
 
 /* -------------------------------------
