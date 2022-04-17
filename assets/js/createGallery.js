@@ -35,7 +35,7 @@ function drawBox(el, box) {
         $img.alt = el.alt;
 
         let $desc = document.getElementById('desc');
-        $desc.textContent = el.desc || '';
+        $desc.innerHTML = el.desc || '';
 
         let $tools = document.getElementById('tools');
 
@@ -141,8 +141,6 @@ export function filter() {
                 }
 
                 switch (className) {
-                    case 'newbie': crearElementos($box, 'newbie');
-                        break;
                     case 'junior': crearElementos($box, 'junior');
                         break;
                     case 'intermediate': crearElementos($box, 'intermediate');

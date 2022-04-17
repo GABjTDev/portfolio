@@ -1,80 +1,13 @@
 [
     {
-        "title": "Faq Accordion Card Main",
-        "local": "faq-accordion-card-main",
-        "difficulty": "newbie",
-        "name": "desktop-preview-1",
-        "alt": "frontend Mentor faq accordion card main",
-        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has",
-        "demo": "https://GABjTDev.github.io/project-portfolio/newbie/faq-accordion-card-main/",
-        "code": "https://github.com/GABjTDev/project-portfolio/tree/main/newbie/faq-accordion-card-main",
-        "tools": [
-            "HTML",
-            "CSS",
-            "JAVASCRIPT"
-        ]
-    },
-    {
-        "title": "Intro Component With Signup Form Master",
-        "local": "intro-component-with-signup-form-master",
-        "name": "desktop-preview-2",
-        "difficulty": "newbie",
-        "alt": "frontend Mentor intro component with signup form master",
-        "demo": "https://GABjTDev.github.io/project-portfolio/newbie/intro-component-with-signup-form-master/",
-        "code": "https://github.com/GABjTDev/project-portfolio/tree/main/newbie/intro-component-with-signup-form-master",
-        "tools": [
-            "HTML",
-            "CSS"
-        ]
-    },
-    {
-        "title": "Clipboard Landing Page Master",
-        "local": "clipboard-landing-page-master",
-        "name": "desktop-preview-3",
-        "difficulty": "junior",
-        "alt": "frontend Mentor clipboard landing page master",
-        "demo": "https://GABjTDev.github.io/project-portfolio/junior/clipboard-landing-page-master/",
-        "code": "https://github.com/GABjTDev/project-portfolio/tree/main/junior/clipboard-landing-page-master",
-        "tools": [
-            "HTML",
-            "CSS"
-        ]
-    },
-    {
-        "title": "Social Proof Section Master",
-        "local": "social-proof-section-master",
-        "name": "desktop-preview-4",
-        "difficulty": "newbie",
-        "alt": "frontend Mentor social proof section master",
-        "demo": "https://GABjTDev.github.io/project-portfolio/newbie/social-proof-section-master/",
-        "code": "https://github.com/GABjTDev/project-portfolio/tree/main/newbie/social-proof-section-master",
-        "tools": [
-            "HTML",
-            "CSS"
-        ]
-    },
-    {
-        "title": "Social Media Dashboard With Theme Switcher Master",
-        "local": "social-media-dashboard-with-theme-switcher-master",
-        "name": "desktop-preview-5",
-        "difficulty": "junior",
-        "alt": "frontend Mentor social media dashboard with theme switcher master",
-        "demo": "https://GABjTDev.github.io/project-portfolio/junior/social-media-dashboard-with-theme-switcher-master/",
-        "code": "https://github.com/GABjTDev/project-portfolio/tree/main/junior/social-media-dashboard-with-theme-switcher-master",
-        "tools": [
-            "HTML",
-            "CSS",
-            "JAVASCRIPT"
-        ]
-    },
-    {
         "title": "Easybank Landing Page Master",
         "local": "easybank-landing-page-master",
-        "name": "desktop-preview-6",
+        "name": "desktop-preview-1",
         "difficulty": "intermediate",
         "alt": "frontend Mentor easybank landing page master",
         "demo": "https://GABjTDev.github.io/project-portfolio/intermediate/easybank-landing-page-master/",
         "code": "https://github.com/GABjTDev/project-portfolio/tree/main/intermediate/easybank-landing-page-master",
+        "desc": "Landing Page simple de easybank responsiva con una navegación responsiva y funcional al igual que todo el diseño. También Cuenta con un par de animaciones básicas.",
         "tools": [
             "HTML",
             "CSS",
@@ -84,11 +17,12 @@
     {
         "title": "Loopstudios Landing Page Main",
         "local": "loopstudios-landing-page-main",
-        "name": "desktop-preview-7",
+        "name": "desktop-preview-2",
         "difficulty": "junior",
         "alt": "frontend Mentor loopstudios landing page main",
         "demo": "https://GABjTDev.github.io/project-portfolio/junior/loopstudios-landing-page-main/",
         "code": "https://github.com/GABjTDev/project-portfolio/tree/main/junior/loopstudios-landing-page-main",
+        "desc": "Landing Page simple de loopstudios responsiva con una navegación responsiva y funcional al igual que todo el diseño. También Cuenta con un par de animaciones básicas.",
         "tools": [
             "HTML",
             "CSS",
@@ -98,11 +32,12 @@
     {
         "title": "Rock Paper Scissors Master",
         "local": "rock-paper-scissors-master",
-        "name": "desktop-preview-9",
+        "name": "desktop-preview-3",
         "difficulty": "advanced",
         "alt": "frontend Mentor rock paper scissors master",
         "demo": "https://GABjTDev.github.io/project-portfolio/advanced/rock-paper-scissors-master/",
         "code": "https://github.com/GABjTDev/project-portfolio/tree/main/advanced/rock-paper-scissors-master",
+        "desc": "Juego de piedra, papel y tijeras con una implementación de dos nuevas jugadas con una guía para entender las nuevas reglas, te invito a probarlo diviertete!!😀",
         "tools": [
             "HTML",
             "CSS",
@@ -112,9 +47,10 @@
     {
         "title": "Calculator App Main",
         "local": "calculator-app-main",
-        "name": "desktop-preview-10",
+        "name": "desktop-preview-4",
         "difficulty": "intermediate",
         "alt": "frontend Mentor calculator app main",
+        "desc": "Calculadora básica para hacer cuentas simples hecha con javascript puro con la posibilidad de cambiar colores en caso de que el usuario necesite.",
         "demo": "https://GABjTDev.github.io/project-portfolio/intermediate/calculator-app-main/",
         "code": "https://github.com/GABjTDev/project-portfolio/tree/main/intermediate/calculator-app-main",
         "tools": [
@@ -126,9 +62,10 @@
     {
         "title": "Static Job Listings Master React",
         "local": "static-job-listings-master-react",
-        "name": "desktop-preview-11",
+        "name": "desktop-preview-5",
         "difficulty": "advanced",
         "alt": "frontend Mentor Static Job Listings Master React",
+        "desc": "Listado de trabajos responsiva con una función de filtros al hacer click sobre las etiquetas con una mínima animación.",
         "demo": "https://static-job-listings-master-react-rho.vercel.app/",
         "code": "https://github.com/GABjTDev/static-job-listings-master-react",
         "tools": [
@@ -141,11 +78,12 @@
     {
         "title": "E-Commerce Hub React",
         "local": "e-commerce-hub-react",
-        "name": "desktop-preview-12",
+        "name": "desktop-preview-6",
         "difficulty": "advanced",
         "alt": "frontend Mentor E-Commerce Hub React",
         "demo": "https://e-commerce-hub.vercel.app/",
         "code": "https://github.com/GABjTDev/e-commerce-hub",
+        "desc": "Hub de E-commerce responsiva el usuario puede moverse entre imágenes y agregar la cantidad de productos al carrito así como eliminar si lo desea.",
         "tools": [
             "HTML",
             "CSS",
@@ -155,33 +93,19 @@
         ]
     },
     {
-        "title": "Todo App Main React",
-        "local": "todo-app-main-react",
-        "name": "desktop-preview-8",
-        "difficulty": "advanced",
-        "alt": "frontend Mentor Todo App Main React",
-        "demo": "https://todo-app-main-react.vercel.app/",
-        "code": "https://github.com/GABjTDev/todo-app-main-react/",
-        "tools": [
-            "HTML",
-            "CSS",
-            "JAVASCRIPT",
-            "REACT",
-            "HOOK REDUCER"
-        ]
-    },
-    {
         "title": "Challenge Alkemy Heroes App",
         "local": "challenge-alkemy-heroes-app",
-        "name": "desktop-preview-13",
+        "name": "desktop-preview-7",
         "difficulty": "advanced",
         "alt": "Challenge for Alkemy",
         "demo": "https://alkemy-heroes-2.vercel.app/login",
         "code": "https://github.com/GABjTDev/alkemy-heroes-2",
+        "desc": "Challenge para alkemy con rutas protegidas usuario: gabriel@alkemy.org, password: react <br /> Funcionalidad: En el primer link de 'Team' se pueden ver dos equipos de héroes y villanos con un máximo de tres integrantes y se pueden eliminar, en el segundo link 'héroes', se pueden agregar al equipo que pertenezca el personaje y buscar los nombres haciendo una llamada a la API.",
         "tools": [
             "HTML",
             "CSS",
             "JAVASCRIPT",
+            "BOOTSTRAP",
             "REACT",
             "REACT ROUTER",
             "REDUX",
@@ -191,14 +115,15 @@
     {
         "title": "Dreadful Tomato",
         "local": "dreadful-tomato",
-        "name": "desktop-preview-14",
+        "name": "desktop-preview-8",
         "difficulty": "advanced",
         "alt": "Dreadful Tomato",
-        "demo": "https://alkemy-heroes-2.vercel.app/login",
-        "code": "https://github.com/GABjTDev/alkemy-heroes-2",
+        "demo": "https://dreadful-tomato.vercel.app/",
+        "code": "https://github.com/GABjTDev/Dreadful-Tomato",
+        "desc": "Challenge de Rviewer Dreadful Tomato el usuario puede elegir si visualizar las series o películas en el catálogo disponible también puede hacer una búsqueda por nombre o filtrado por año.",
         "tools": [
             "HTML",
-            "CSS",
+            "SASS",
             "JAVASCRIPT",
             "REACT",
             "REACT ROUTER"
