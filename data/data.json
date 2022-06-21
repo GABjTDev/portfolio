@@ -100,15 +100,17 @@
         "alt": "Challenge for Alkemy",
         "demo": "https://alkemy-heroes-2.vercel.app/login",
         "code": "https://github.com/GABjTDev/alkemy-heroes-2",
-        "desc": "Challenge para alkemy con rutas protegidas usuario: gabriel@alkemy.org, password: react <br /> Funcionalidad: En el primer link de 'Team' se pueden ver dos equipos de héroes y villanos con un máximo de tres integrantes y se pueden eliminar, en el segundo link 'héroes', se pueden agregar al equipo que pertenezca el personaje y buscar los nombres haciendo una llamada a la API.",
+        "desc": "Challenge para alkemy con rutas protegidas email: gabriel.rea@alkemy.org, password: react <br /> Funcionalidad: En el primer link de 'Team' se pueden ver dos equipos de héroes y villanos con un máximo de tres integrantes y se pueden eliminar, en el segundo link 'characters', se pueden agregar al equipo que pertenezca el personaje y buscar los nombres haciendo una llamada a la API.",
         "tools": [
             "HTML",
             "CSS",
             "JAVASCRIPT",
-            "BOOTSTRAP",
+            "CHAKRA UI",
             "REACT",
             "REACT ROUTER",
             "REDUX",
+            "SAGA",
+            "FRAMER MOTION",
             "FORMIK"
         ]
     },
